@@ -1,0 +1,23 @@
+{
+  "name": "philosophy-api",
+  "version": "1.0.0",
+  "description": "An API that sends JSON data of philosphers, quotes, teachings, images, schools of thought, and more.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "philosophy"
+  ],
+  "author": "Steve Pae",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
